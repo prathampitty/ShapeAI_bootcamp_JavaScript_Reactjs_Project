@@ -1,10 +1,11 @@
 import React from "react";
 
-function Header() {
+function Footer() {
+  var currYear = new Date().getFullYear();
   return (
-    <header>
-      <h1>ShapeAI</h1>
-    </header>
+    <footer>
+      <p>Copyright @ {currYear}</p>
+    </footer>
   );
 }
-export default Header;
+export default Footer;
